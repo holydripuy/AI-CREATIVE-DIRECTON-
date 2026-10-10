@@ -1,0 +1,15 @@
+{
+  "name": "antonella-dangelo-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Antonella D'Angelo — AI Creative Director / Fashion Imagery. Static site for Cloudflare Pages.",
+  "scripts": {
+    "dev": "npx --yes serve public -l 3000",
+    "check": "node scripts/check.mjs",
+    "set-domain": "node scripts/set-domain.mjs",
+    "deploy": "npx --yes wrangler pages deploy public --project-name=antonella-dangelo"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
